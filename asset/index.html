@@ -27,7 +27,38 @@
             <input type="text" placeholder="Search Country here" class="search">
             <i class="fas fa-search"></i>
         </div>
-        
+        <!-- Dropdown for region filter -->
+        <div class="drop-down-container">
+            <div class="drop-down">
+                <p>Filter By Region</p>
+                <button><i class="fas fa-chevron-down"></i></button>
+            </div>
+            <!-- Region filter options -->
+            <div class="drop showDropDown">
+                <p class="region">All</p>
+                <p class="region">Africa</p>
+                <p class "region">Asia</p>
+                <p class="region">America</p>
+                <p class="region">Europe</p>
+                <p class="region">Oceania</p>
+            </div>
+        </div>
+    </div>
+    <!-- Container for dynamically added country cards -->
+    <div class="countries">
+        <!-- Country Cards will be dynamically added here -->
+        <div class="country">
+            <div class="country-img">
+              <img src="${data.flag}" alt="">
+            </div>
+            <div class="country-info">
+              <h5 class="countryName">Country Name</h5>
+              <p><strong>Population:</strong> Population</p>
+              <p class="regionName"><strong>Region:</strong> Regionegion</p>
+              <p><strong>Capital:</strong> Capital</p>
+            </div>
+          </div>
+    </div>
     <script src="index.js"></script>
 </body>
 
