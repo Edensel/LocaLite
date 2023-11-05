@@ -2,7 +2,16 @@
 
 ![Design preview for the LocaLite Country App Finder](./asset/LocaLiteapp.gif)
 
-## Welcome! 👋
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [Built with](#built-with)
+- [Author](#author)
+
+## Overview! 👋
 
 Thanks for checking out the LocaLite Country App Finder, a front-end coding challenge project.
 
@@ -11,6 +20,11 @@ Thanks for checking out the LocaLite Country App Finder, a front-end coding chal
 
 The task was to build a web application that allows users to search for countries, filter them by region, and view detailed information about a specific country. The application will be  integrate with the REST Countries API to fetch country data and display it in a user-friendly way.
 
+
+### Links
+
+- Solution URL:Github repository (https://github.com/Edensel/LocaLite.git)
+- Live Site URL: LocaLite web application (https://edensel.github.io/LocaLite/)
 
 ### Key Features
 
@@ -26,6 +40,7 @@ The project provides you with the following files and resources:
 - `index.js`: The JavaScript file for implementing the app's functionality.
 - `style.css`: The CSS file for styling your web app.
 - `design`: A folder containing design images for both light and dark modes.
+- `Project `: A folder containing design images for both light and dark modes.
 
 ## Building Your Project
 
@@ -42,5 +57,5 @@ To fetch data from the REST Countries API, you will make HTTP requests using Jav
 
 ## Author
 
-- **Name**: [Your Name]
-- **Email**: [Your Email]
+- **Name**: Densel Esekon
+- **Email**: esekondensel@gmail.com
