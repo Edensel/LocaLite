@@ -120,3 +120,120 @@ i {
   border-radius: 5px;
   overflow: hidden;
 }
+/* Styling for the country image */
+.country-img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.country-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Styling for the country information */
+.country-info {
+  padding: 17px 14px;
+}
+
+.country-info h5 {
+  padding: 8px 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.country-info p {
+  letter-spacing: 1px;
+}
+
+.country-info p>strong {
+  font-weight: 600;
+}
+
+/* Hiding the dropdown initially */
+.showDropDown {
+  display: none;
+}
+
+/* Styling for the country details page */
+.countrypage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: whitesmoke;
+  padding: 30px;
+}
+
+/* Styling for the back button */
+.back {
+  position: absolute;
+  top: 3rem;
+  left: 30px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 5px rgb(197, 201, 197);
+  padding: 10px 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styling for the detailed country information layout */
+.pcountry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+}
+
+/* Styling for the left side of the country details page */
+.leftpage {
+  width: 50%;
+}
+
+.leftpage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Styling for the right side of the country details page */
+.rightpage {
+  width: 100%;
+  margin-left: 40px;
+}
+
+.rightpage h1 {
+  margin: 10px 0;
+  letter-spacing: 1px;
+  font-size: 40px;
+}
+
+/* Styling for the country information details layout */
+.countryinfo {
+  display: flex;
+  justify-content: space-between;
+  padding: auto;
+}
+
+/* Styling for the detailed information text */
+.details p {
+  letter-spacing: 1px;
+}
+
+/* Styling for strong elements within the detailed information */
+.details p>strong {
+  font-weight: 600;
+}
+
+/* Initially hiding the country details page */
+.show {
+  display: none;
+}
