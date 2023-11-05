@@ -1,27 +1,22 @@
 # The LocaLite Country App Finder
 
-![Design preview for the LocaLite Country App Finder]()
+![Design preview for the LocaLite Country App Finder](./asset/LocaLiteapp.gif)
 
 ## Welcome! 👋
 
 Thanks for checking out the LocaLite Country App Finder, a front-end coding challenge project.
 
-Frontend Mentor challenges are designed to help you improve your coding skills by building realistic projects.
-
-
 
 ## The Challenge
 
-Your task is to build a web application that allows users to search for countries, filter them by region, and view detailed information about a specific country. You'll integrate with the REST Countries API to fetch country data and display it in a user-friendly way.
+The task was to build a web application that allows users to search for countries, filter them by region, and view detailed information about a specific country. The application will be  integrate with the REST Countries API to fetch country data and display it in a user-friendly way.
 
-The challenge also provides designs for both light and dark modes, allowing you to implement a theme switcher for the app.
 
 ### Key Features
 
 - Search for countries by name.
 - Filter countries by region.
 - View detailed information about a specific country, including its name, population, region, subregion, capital, top-level domain, currencies, and languages.
-- Toggle between light and dark themes (optional).
 
 ## Where to Find Everything
 
