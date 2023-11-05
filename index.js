@@ -74,5 +74,31 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   });
 
-  
+  // Display detailed country information
+  function showCountryDetail(data) {
+      countryPage.classList.toggle("show");
+      countryPage.innerHTML = `
+          <div class="pcountry">
+              <div class="leftpage">
+                  <img src="${data.flag}" alt="">
+              </div>
+              <div class="rightpage">
+                  <h1>${data.name}</h1>
+                  <div class="countryinfo">
+                      <div class="leftDetails details">
+                          <p><strong>Native Name:</strong> ${data.nativeName}</p>
+                          <p><strong>Population:</strong> ${data.population}</p>
+                          <p><strong>Region:</strong> ${data.region}</p>
+                          <p><strong>Sub Region:</strong> ${data.subregion}</p>
+                          <p><strong>Capital:</strong> ${data.capital}</p>
+                      </div>
+                      <div class="rightDetails details">
+                          <p><strong>Top Level Domain:</strong> ${data.topLevelDomain}</p>
+                          <p><strong>Currencies:</strong> ${data.currencies[0].name} (${data.currencies[0].code})</p>
+                          <p><strong>Languages:</strong> ${data.languages.map(lang => lang.name).join(', ')}</p>
+                      </div>
+                  </div>
+              </div>
+          </div>`;
+  }
 });
