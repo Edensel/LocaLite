@@ -39,8 +39,6 @@ The project provides you with the following files and resources:
 - `index.html`: The HTML file where you'll structure the content of your web app.
 - `index.js`: The JavaScript file for implementing the app's functionality.
 - `style.css`: The CSS file for styling your web app.
-- `design`: A folder containing design images for both light and dark modes.
-- `Project `: A folder containing design images for both light and dark modes.
 
 ## Building Your Project
 
@@ -54,6 +52,7 @@ You have complete control over how you structure your project and implement the 
 ### REST Countries API
 
 To fetch data from the REST Countries API, you will make HTTP requests using JavaScript. You'll need to use JavaScript to fetch data and display it in your web app.
+BASE URL link i used for the project (https://restcountries.com/v2/all)
 
 ## Author
 
