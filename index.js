@@ -60,5 +60,19 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   });
 
+  // Search for countries by name
+  search.addEventListener("input", () => {
+      const searchValue = search.value.toLowerCase();
+      const countryCards = document.querySelectorAll(".country");
+      countryCards.forEach((card) => {
+          const cardName = card.querySelector(".countryName").textContent.toLowerCase();
+          if (cardName.includes(searchValue)) {
+              card.style.display = "grid";
+          } else {
+              card.style.display = "none";
+          }
+      });
+  });
+
   
 });
