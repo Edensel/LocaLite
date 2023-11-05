@@ -14,3 +14,48 @@ body {
   background-color: rgb(240, 236, 232);
   color: black;
 }
+
+/* Container for elements with padding */
+.container {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Apply a box shadow to the first container */
+.container:nth-child(1) {
+  box-shadow: 0 0 5px rgb(39, 41, 39);
+}
+
+/* Remove default button styles */
+button {
+  outline: none;
+  border: 0;
+  background: transparent;
+}
+
+/* Styling for the search input and search icon */
+.form-control {
+  width: 400px;
+  box-shadow: 0 0 5px rgb(197, 201, 197);
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 17px 14px;
+  outline: 0;
+  border: 0;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.form-control i {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
