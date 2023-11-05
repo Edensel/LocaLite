@@ -14,5 +14,28 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
   getCountry();
+
+  function showCountry(data) {
+    const country = document.createElement("div");
+    country.classList.add("country");
+    country.innerHTML = `
+      <div class="country">
+        <div class="country-img">
+          <img src="${data.flag}" alt="">
+        </div>
+        <div class="country-info">
+          <h5 class="countryName">${data.name}</h5>
+          <p><strong>Population:</strong> ${data.population}</p>
+          <p class="regionName"><strong>Region:</strong> ${data.region}</p>
+          <p><strong>Capital:</strong> ${data.capital}</p>
+        </div>
+      </div>`;
+    countriesElement.appendChild(country);
+    country.addEventListener("click", () => {
+      showCountryDetail(data);
+    });
+  }
+
+  
     
 });
