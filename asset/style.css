@@ -59,3 +59,64 @@ button {
   right: 1rem;
   cursor: pointer;
 }
+
+/* Add a cursor pointer to all icons */
+i {
+  cursor: pointer;
+}
+
+/* Styling for the region filter dropdown */
+.drop-down-container {
+  position: relative;
+  width: 200px;
+}
+
+.drop-down {
+  padding: 17px 14px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(197, 201, 197);
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Add spacing to region filter text */
+.drop-down p {
+  letter-spacing: 0.5px;
+}
+
+/* Styling for the region filter dropdown options */
+.drop {
+  position: absolute;
+  box-shadow: 0 0 5px rgb(197, 201, 197);
+  top: 4rem;
+  padding: 10px 14px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgb(240, 236, 232);
+  cursor: pointer;
+}
+
+/* Add spacing to region filter options */
+.drop p {
+  margin: 5px 0;
+}
+
+/* Styling for the container of dynamically added country cards */
+.countries {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+/* Styling for each country card */
+.country {
+  min-height: 400px;
+  box-shadow: 0 0 5px rgb(197, 201, 197);
+  border-radius: 5px;
+  overflow: hidden;
+}
