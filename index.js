@@ -36,6 +36,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  dropDown.addEventListener("click", () => {
+    dropDownElement.classList.toggle("showDropDown");
+  });
+
   
     
 });
