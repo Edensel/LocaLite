@@ -1,6 +1,6 @@
 # The LocaLite Country App Finder
 
-![Design preview for the LocaLite Country App Finder](./asset/LocaLiteapp.gif)
+![Design preview for the LocaLite Country App Finder](LocaLiteapp.gif)
 
 
 ## Table of contents
