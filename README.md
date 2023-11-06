@@ -38,7 +38,7 @@ The project provides you with the following files and resources:
 
 - `index.html`: The HTML file where you'll structure the content of your web app.
 - `index.js`: The JavaScript file for implementing the app's functionality.
-- `style.css`: The CSS file for styling your web app.
+- `style.css`: The CSS files for styling your web app.
 
 ## Building Your Project
 

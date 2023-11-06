@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const region = document.querySelectorAll(".region");
   const search = document.querySelector(".search");
   const countryPage = document.querySelector(".countryPage");
+//   const couunty = document.querySelector(".county");
 
   // Fetch and display country data
   async function getCountry() {

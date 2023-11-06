@@ -18,7 +18,7 @@ body {
 /* Container for elements with padding */
 .container {
   width: 100%;
-  padding: 30px;
+  padding: 31px;
   display: flex;
   justify-content: space-between;
 }
