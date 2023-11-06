@@ -28,7 +28,7 @@ The task was to build a web application that allows users to search for countrie
 
 ### Key Features
 
-- Search for countries by name.
+- Search for countries by names.
 - Filter countries by region.
 - View detailed information about a specific country, including its name, population, region, subregion, capital, top-level domain, currencies, and languages.
 
